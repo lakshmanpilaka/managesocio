@@ -16,19 +16,7 @@
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
-    <link type="text/css" rel="stylesheet"
-        href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700">
-  <link type="text/css" rel="stylesheet" href="global/vendors/font-awesome/css/font-awesome.min.css">
-  <link type="text/css" rel="stylesheet" href="global/vendors/simple-line-icons/simple-line-icons.css">
-  <link type="text/css" rel="stylesheet" href="global/vendors/bootstrap/css/bootstrap.min.css">
-  <link type="text/css" rel="stylesheet" href="global/vendors/animate.css/animate.css">
-  <link type="text/css" rel="stylesheet" href="global/vendors/iCheck/skins/all.css">
-  <link type="text/css" rel="stylesheet" href="assets/vendors/bootstrap-switch/css/bootstrap-switch.css">
-  <link type="text/css" rel="stylesheet" href="assets/vendors/google-code-prettify/prettify.css">
- <%-- <link type="text/css" rel="stylesheet" href="" id="font-layout">--%>
-  <link type="text/css" rel="stylesheet" href="global/css/core.css">
-  <link type="text/css" rel="stylesheet" href="assets/css/system.css">
-  <link type="text/css" rel="stylesheet" href="assets/css/system-responsive.css">
+  
 
 </head>
 <body class="sidebar-color-green layout-sidebar-collapsed font-open-sans">
@@ -53,6 +41,7 @@
                 <%--Site Scripts--%>
             </Scripts>
         </asp:ScriptManager>
+       
 
         <%--<div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
@@ -89,10 +78,14 @@
                 </div>
             </div>
         </div>--%>
- <div class="col-md-10 col-md-offset-1">
-       <nav class="navbar navbar-default">
+        
+        <asp:LoginView runat="server" ViewStateMode="Disabled">
+            <LoggedInTemplate>
+ <nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
+       
+                        
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
@@ -114,12 +107,13 @@
       </ul>
       
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
+        <li><a href="#">Hello, <%: Context.User.Identity.Name %>!</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Profile <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="#">View Profile</a></li>
-            <li><a href="#">Log Out</a></li>
+            <li><a href="#"><asp:LoginStatus ID="LoginStatus1" runat="server" LogoutAction="Redirect" LogoutText="Sign out"
+                                        LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" /></a></li>
             
           </ul>
         </li>
@@ -127,14 +121,17 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-            
-            </div>
+                </LoggedInTemplate>
+            <AnonymousTemplate></AnonymousTemplate>
+  </asp:LoginView>
+         
             <div class="container body-content">
                 <asp:ContentPlaceHolder ID="MainContent" runat="server">
                 </asp:ContentPlaceHolder>
                 
 
             </div>
+   
     </form>
 </body>
 </html>
