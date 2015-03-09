@@ -2,41 +2,139 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <div class="jumbotron">
-        <h1>ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-    </div>
+    
+       <div class="col-md-6 col-md-offset-0">
 
-    <div class="row">
-        <div class="col-md-4">
-            <h2>Getting Started</h2>
-            <p>
-                ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
-            </p>
-            <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Get more libraries</h2>
-            <p>
-                NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
-            </p>
-            <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Web Hosting</h2>
-            <p>
-                You can easily find a web hosting company that offers the right mix of features and price for your applications.
-            </p>
-            <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
-            </p>
+          <div class="panel panel-success">
+    <div class="panel-heading ">
+        <div class="caption">Attendance</div>
+        <div class="tools">
+            <ul role="tablist" class="nav nav-tabs">
+                <li class="active"><a href="#tab_1" data-toggle="tab">Today</a></li>
+                <li><a href="#tab_2" data-toggle="tab">Week</a></li>
+                <li><a href="#tab_3" data-toggle="tab">Month</a></li>
+            </ul>
         </div>
     </div>
+    <div class="tab-content">
+        <div id="tab_1" class="tab-pane fade in active">
+            <table class="table table-bordered table-hover table-striped">
+    <thead >
+    <tr>
+        <th>Store Name</th>
+        <th>Absent</th>
+        <th>Late</th>
+        <th>Present</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Store 1</td>
+        <td>13</td>
+        <td>23</td>
+        <td>45</td>
+    </tr>
+    <tr>
+        <td>Store 2</td>
+        <td>17</td>
+        <td>45</td>
+        <td>32</td>
+    </tr>
+    <tr>
+        <td>Store 3</td>
+        <td>23</td>
+        <td>30</td>
+        <td>19</td>
+    </tr>
+    <tr>
+        <td>Store 4</td>
+        <td>30</td>
+        <td>15</td>
+        <td>16</td>
+    </tr>
+    </tbody>
+</table>
+        </div>
+        <div id="tab_2" class="tab-pane fade">
+            <table class="table table-bordered table-hover table-striped">
+    <thead >
+    <tr>
+        <th>Store Name</th>
+        <th>Absent</th>
+        <th>Late</th>
+        <th>Present</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Store 1</td>
+        <td>13</td>
+        <td>23</td>
+        <td>45</td>
+    </tr>
+    <tr>
+        <td>Store 2</td>
+        <td>17</td>
+        <td>45</td>
+        <td>32</td>
+    </tr>
+    <tr>
+        <td>Store 3</td>
+        <td>23</td>
+        <td>30</td>
+        <td>19</td>
+    </tr>
+    <tr>
+        <td>Store 4</td>
+        <td>30</td>
+        <td>15</td>
+        <td>16</td>
+    </tr>
+    </tbody>
+</table>
+        </div>
+        <div id="tab_3" class="tab-pane fade">
+            <table class="table table-bordered table-hover table-striped">
+    <thead >
+    <tr>
+        <th>Store Name</th>
+        <th>Absent</th>
+        <th>Late</th>
+        <th>Present</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Store 1</td>
+        <td>13</td>
+        <td>23</td>
+        <td>45</td>
+    </tr>
+    <tr>
+        <td>Store 2</td>
+        <td>17</td>
+        <td>45</td>
+        <td>32</td>
+    </tr>
+    <tr>
+        <td>Store 3</td>
+        <td>23</td>
+        <td>30</td>
+        <td>19</td>
+    </tr>
+    <tr>
+        <td>Store 4</td>
+        <td>30</td>
+        <td>15</td>
+        <td>16</td>
+    </tr>
+    </tbody>
+</table>
+        </div>
+    </div>
+</div>
+           </div>
+
+       
 
 </asp:Content>
