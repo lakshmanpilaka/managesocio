@@ -9,6 +9,20 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%: Page.Title %> - Socio Admin Panel</title>
+ 
+  <link type="text/css" rel="stylesheet"
+        href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700">
+  <link type="text/css" rel="stylesheet" href="global/vendors/font-awesome/css/font-awesome.min.css">
+  <link type="text/css" rel="stylesheet" href="global/vendors/simple-line-icons/simple-line-icons.css">
+  <link type="text/css" rel="stylesheet" href="global/vendors/bootstrap/css/bootstrap.min.css">
+  <link type="text/css" rel="stylesheet" href="global/vendors/animate.css/animate.css">
+  <link type="text/css" rel="stylesheet" href="global/vendors/iCheck/skins/all.css">
+  <link type="text/css" rel="stylesheet" href="assets/vendors/bootstrap-switch/css/bootstrap-switch.css">
+  <link type="text/css" rel="stylesheet" href="assets/vendors/google-code-prettify/prettify.css">
+  <link type="text/css" rel="stylesheet" href="global/css/core.css">
+  <link type="text/css" rel="stylesheet" href="assets/css/system.css">
+  <link type="text/css" rel="stylesheet" href="assets/css/system-responsive.css">
+  <link type="text/css" rel="stylesheet" href="global/vendors/select2/select2-custom.css">
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
@@ -16,11 +30,9 @@
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
-  
-
 </head>
 <body class="sidebar-color-green layout-sidebar-collapsed font-open-sans">
-    <form runat="server">
+    <form runat="server" id="masterForm">
         <asp:ScriptManager runat="server">
             <Scripts>
                 <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=301884 --%>
@@ -101,8 +113,8 @@
 
     <div class="collapse navbar-collapse navbar-static-top" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
+        <li><a href="Default.aspx">Home</a></li>
+        <li><a href="Messages.aspx">Messages</a></li>
         
       </ul>
       
@@ -133,5 +145,8 @@
             </div>
    
     </form>
+    <script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
+
 </body>
+
 </html>
