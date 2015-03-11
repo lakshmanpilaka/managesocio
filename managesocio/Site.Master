@@ -114,7 +114,7 @@
     <div class="collapse navbar-collapse navbar-static-top" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="Default.aspx">Home</a></li>
-        <li><a href="Messages.aspx">Messages</a></li>
+        <li><a href="Messages.aspx">Offer Management</a></li>
         
       </ul>
       

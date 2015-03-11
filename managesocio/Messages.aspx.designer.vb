@@ -23,6 +23,60 @@ Partial Public Class Messages
     Protected WithEvents socio_azure As Global.System.Web.UI.WebControls.SqlDataSource
 
     '''<summary>
+    '''empGroup1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents empGroup1 As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
+    '''OfferSubject control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents OfferSubject As Global.System.Web.UI.HtmlControls.HtmlInputText
+
+    '''<summary>
+    '''OfferContent control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents OfferContent As Global.System.Web.UI.HtmlControls.HtmlTextArea
+
+    '''<summary>
+    '''btnSendOffer control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnSendOffer As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''GridView1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents GridView1 As Global.System.Web.UI.WebControls.GridView
+
+    '''<summary>
+    '''emp_empgroup control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents emp_empgroup As Global.System.Web.UI.WebControls.SqlDataSource
+
+    '''<summary>
     '''UpdatePanel1 control.
     '''</summary>
     '''<remarks>
@@ -32,11 +86,20 @@ Partial Public Class Messages
     Protected WithEvents UpdatePanel1 As Global.System.Web.UI.UpdatePanel
 
     '''<summary>
-    '''empGroup1 control.
+    '''GridView2 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents empGroup1 As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents GridView2 As Global.System.Web.UI.WebControls.GridView
+
+    '''<summary>
+    '''GroupEmployee control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents GroupEmployee As Global.System.Web.UI.WebControls.SqlDataSource
 End Class
