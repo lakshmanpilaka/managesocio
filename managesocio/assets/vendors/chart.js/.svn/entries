@@ -1,0 +1,91 @@
+10
+
+dir
+0
+https://github.com:443/lakshman53/socio-website.git/assets/vendors/chart.js
+https://github.com:443/lakshman53/socio-website.git
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+66176daa-0519-b781-f796-ce57b7db7bff
+
+LICENSE.md
+file
+
+
+
+add
+
+samples
+dir
+
+
+
+add
+
+site
+dir
+
+
+
+add
+
+.gitignore
+file
+
+
+
+add
+
+docs
+dir
+
+
+
+add
+
+component.json
+file
+
+
+
+add
+
+Chart.js
+file
+
+
+
+add
+
+readme.md
+file
+
+
+
+add
+
+Chart.min.js
+file
+
+
+
+add
+

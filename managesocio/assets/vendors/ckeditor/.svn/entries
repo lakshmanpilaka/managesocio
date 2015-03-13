@@ -1,0 +1,98 @@
+10
+
+dir
+0
+https://github.com:443/lakshman53/socio-website.git/assets/vendors/ckeditor
+https://github.com:443/lakshman53/socio-website.git
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+66176daa-0519-b781-f796-ce57b7db7bff
+
+ckeditor.js
+file
+
+
+
+add
+
+config.js
+file
+
+
+
+add
+
+lang
+dir
+
+
+
+add
+
+plugins
+dir
+
+
+
+add
+
+adapters
+dir
+
+
+
+add
+
+contents.css
+file
+
+
+
+add
+
+samples
+dir
+
+
+
+add
+
+skins
+dir
+
+
+
+add
+
+build-config.js
+file
+
+
+
+add
+
+styles.js
+file
+
+
+
+add
+

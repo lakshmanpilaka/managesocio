@@ -1,0 +1,119 @@
+10
+
+dir
+0
+https://github.com:443/lakshman53/socio-website.git/assets/vendors/bootstrap-select
+https://github.com:443/lakshman53/socio-website.git
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+66176daa-0519-b781-f796-ce57b7db7bff
+
+composer.json
+file
+
+
+
+add
+
+i18n
+dir
+
+
+
+add
+
+bootstrap-select.jquery.json
+file
+
+
+
+add
+
+bootstrap-select.css
+file
+
+
+
+add
+
+test.html
+file
+
+
+
+add
+
+bootstrap-select.min.css
+file
+
+
+
+add
+
+package.json
+file
+
+
+
+add
+
+.gitignore
+file
+
+
+
+add
+
+bootstrap-select.js
+file
+
+
+
+add
+
+CONTRIBUTING.md
+file
+
+
+
+add
+
+bower.json
+file
+
+
+
+add
+
+bootstrap-select.min.js
+file
+
+
+
+add
+
+README.md
+file
+
+
+
+add
+

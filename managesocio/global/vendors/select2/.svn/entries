@@ -1,0 +1,483 @@
+10
+
+dir
+0
+https://github.com:443/lakshman53/socio-website.git/global/vendors/select2
+https://github.com:443/lakshman53/socio-website.git
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+66176daa-0519-b781-f796-ce57b7db7bff
+
+select2_locale_pt-PT.js
+file
+
+
+
+add
+
+select2_locale_fr.js
+file
+
+
+
+add
+
+select2_locale_et.js
+file
+
+
+
+add
+
+select2_locale_hr.js
+file
+
+
+
+add
+
+select2_locale_nl.js
+file
+
+
+
+add
+
+select2_locale_az.js
+file
+
+
+
+add
+
+bower.json
+file
+
+
+
+add
+
+select2_locale_pl.js
+file
+
+
+
+add
+
+select2_locale_th.js
+file
+
+
+
+add
+
+select2_locale_it.js
+file
+
+
+
+add
+
+select2.css
+file
+
+
+
+add
+
+release.sh
+file
+
+
+
+add
+
+select2_locale_lt.js
+file
+
+
+
+add
+
+README.md
+file
+
+
+
+add
+
+select2_locale_lv.js
+file
+
+
+
+add
+
+select2x2.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+select2.min.js
+file
+
+
+
+add
+
+select2_locale_ca.js
+file
+
+
+
+add
+
+select2_locale_da.js
+file
+
+
+
+add
+
+select2_locale_tr.js
+file
+
+
+
+add
+
+select2_locale_fa.js
+file
+
+
+
+add
+
+select2_locale_bg.js
+file
+
+
+
+add
+
+select2_locale_de.js
+file
+
+
+
+add
+
+select2_locale_sv.js
+file
+
+
+
+add
+
+select2_locale_ja.js
+file
+
+
+
+add
+
+select2_locale_ka.js
+file
+
+
+
+add
+
+select2_locale_he.js
+file
+
+
+
+add
+
+select2_locale_fi.js
+file
+
+
+
+add
+
+component.json
+file
+
+
+
+add
+
+select2_locale_cs.js
+file
+
+
+
+add
+
+select2-spinner.gif
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+LICENSE
+file
+
+
+
+add
+
+select2_locale_es.js
+file
+
+
+
+add
+
+select2_locale_mk.js
+file
+
+
+
+add
+
+select2_locale_ko.js
+file
+
+
+
+add
+
+select2_locale_eu.js
+file
+
+
+
+add
+
+select2.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+select2_locale_zh-TW.js
+file
+
+
+
+add
+
+select2_locale_is.js
+file
+
+
+
+add
+
+select2.jquery.json
+file
+
+
+
+add
+
+select2_locale_hu.js
+file
+
+
+
+add
+
+select2_locale_en.js.template
+file
+
+
+
+add
+
+select2_locale_no.js
+file
+
+
+
+add
+
+select2_locale_sk.js
+file
+
+
+
+add
+
+select2_locale_vi.js
+file
+
+
+
+add
+
+select2_locale_ms.js
+file
+
+
+
+add
+
+select2_locale_uk.js
+file
+
+
+
+add
+
+select2_locale_zh-CN.js
+file
+
+
+
+add
+
+select2_locale_ro.js
+file
+
+
+
+add
+
+composer.json
+file
+
+
+
+add
+
+select2_locale_pt-BR.js
+file
+
+
+
+add
+
+select2_locale_rs.js
+file
+
+
+
+add
+
+select2-custom.css
+file
+
+
+
+add
+
+select2_locale_ru.js
+file
+
+
+
+add
+
+package.json
+file
+
+
+
+add
+
+select2-bootstrap.css
+file
+
+
+
+add
+
+.gitignore
+file
+
+
+
+add
+
+select2_locale_id.js
+file
+
+
+
+add
+
+select2_locale_el.js
+file
+
+
+
+add
+
+select2.js
+file
+
+
+
+add
+
+select2_locale_ar.js
+file
+
+
+
+add
+
+select2_locale_gl.js
+file
+
+
+
+add
+

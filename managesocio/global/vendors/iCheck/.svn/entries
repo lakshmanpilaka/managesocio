@@ -1,0 +1,63 @@
+10
+
+dir
+0
+https://github.com:443/lakshman53/socio-website.git/global/vendors/iCheck
+https://github.com:443/lakshman53/socio-website.git
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+66176daa-0519-b781-f796-ce57b7db7bff
+
+icheck.js
+file
+
+
+
+add
+
+icheck.min.js
+file
+
+
+
+add
+
+demo
+dir
+
+
+
+add
+
+custom.min.js
+file
+
+
+
+add
+
+skins
+dir
+
+
+
+add
+

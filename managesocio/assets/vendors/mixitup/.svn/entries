@@ -1,0 +1,105 @@
+10
+
+dir
+0
+https://github.com:443/lakshman53/socio-website.git/assets/vendors/mixitup
+https://github.com:443/lakshman53/socio-website.git
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+66176daa-0519-b781-f796-ce57b7db7bff
+
+build
+dir
+
+
+
+add
+
+composer.json
+file
+
+
+
+add
+
+LICENSE.md
+file
+
+
+
+add
+
+package.json
+file
+
+
+
+add
+
+.gitignore
+file
+
+
+
+add
+
+CHANGELOG.md
+file
+
+
+
+add
+
+bower.json
+file
+
+
+
+add
+
+src
+dir
+
+
+
+add
+
+docs
+dir
+
+
+
+add
+
+Gruntfile.js
+file
+
+
+
+add
+
+README.md
+file
+
+
+
+add
+

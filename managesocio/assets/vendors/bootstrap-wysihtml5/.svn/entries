@@ -1,0 +1,49 @@
+10
+
+dir
+0
+https://github.com:443/lakshman53/socio-website.git/assets/vendors/bootstrap-wysihtml5
+https://github.com:443/lakshman53/socio-website.git
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+66176daa-0519-b781-f796-ce57b7db7bff
+
+locales
+dir
+
+
+
+add
+
+bootstrap3-wysihtml5.all.min.js
+file
+
+
+
+add
+
+bootstrap3-wysihtml5.min.css
+file
+
+
+
+add
+

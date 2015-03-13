@@ -1,0 +1,175 @@
+10
+
+dir
+0
+https://github.com:443/lakshman53/socio-website.git/assets/vendors/ckeditor/skins/bootstrapck
+https://github.com:443/lakshman53/socio-website.git
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+66176daa-0519-b781-f796-ce57b7db7bff
+
+editor_ie7.css
+file
+
+
+
+add
+
+sample
+dir
+
+
+
+add
+
+editor_ie8.css
+file
+
+
+
+add
+
+.temp
+dir
+
+
+
+add
+
+editor_gecko.css
+file
+
+
+
+add
+
+dialog.css
+file
+
+
+
+add
+
+editor_iequirks.css
+file
+
+
+
+add
+
+dialog_ie7.css
+file
+
+
+
+add
+
+editor_ie.css
+file
+
+
+
+add
+
+dialog_ie8.css
+file
+
+
+
+add
+
+readme.md
+file
+
+
+
+add
+
+icons.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+dialog_iequirks.css
+file
+
+
+
+add
+
+dialog_ie.css
+file
+
+
+
+add
+
+images
+dir
+
+
+
+add
+
+icons_hidpi.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+scss
+dir
+
+
+
+add
+
+dialog_opera.css
+file
+
+
+
+add
+
+editor.css
+file
+
+
+
+add
+

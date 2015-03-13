@@ -1,0 +1,77 @@
+10
+
+dir
+0
+https://github.com:443/lakshman53/socio-website.git/global/js
+https://github.com:443/lakshman53/socio-website.git
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+66176daa-0519-b781-f796-ce57b7db7bff
+
+jquery-migrate-1.2.1.min.js
+file
+
+
+
+add
+
+core.js
+file
+
+
+
+add
+
+jquery-ui.js
+file
+
+
+
+add
+
+respond.min.js
+file
+
+
+
+add
+
+jquery-1.10.2.min.js
+file
+
+
+
+add
+
+jquery-1.10.2.min.map
+file
+
+
+
+add
+
+html5shiv.js
+file
+
+
+
+add
+

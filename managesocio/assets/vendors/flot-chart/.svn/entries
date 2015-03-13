@@ -1,0 +1,182 @@
+10
+
+dir
+0
+https://github.com:443/lakshman53/socio-website.git/assets/vendors/flot-chart
+https://github.com:443/lakshman53/socio-website.git
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+66176daa-0519-b781-f796-ce57b7db7bff
+
+jquery.flot.selection.js
+file
+
+
+
+add
+
+jquery.flot.categories.js
+file
+
+
+
+add
+
+excanvas.js
+file
+
+
+
+add
+
+jquery.flot.spline.js
+file
+
+
+
+add
+
+jquery.flot.tooltip.js
+file
+
+
+
+add
+
+jquery.flot.animator.min.js
+file
+
+
+
+add
+
+jquery.flot.threshold.js
+file
+
+
+
+add
+
+jquery.flot.crosshair.js
+file
+
+
+
+add
+
+jquery.flot.time.js
+file
+
+
+
+add
+
+jquery.flot.navigate.js
+file
+
+
+
+add
+
+jquery.colorhelpers.js
+file
+
+
+
+add
+
+jquery.flot.fillbetween.js
+file
+
+
+
+add
+
+jquery.flot.resize.js
+file
+
+
+
+add
+
+jquery.flot.js
+file
+
+
+
+add
+
+jquery.flot.errorbars.js
+file
+
+
+
+add
+
+jquery.flot.stack.js
+file
+
+
+
+add
+
+jquery.flot.symbol.js
+file
+
+
+
+add
+
+excanvas.min.js
+file
+
+
+
+add
+
+jquery.flot.canvas.js
+file
+
+
+
+add
+
+jquery.flot.tooltip.min.js
+file
+
+
+
+add
+
+jquery.flot.pie.js
+file
+
+
+
+add
+
+jquery.flot.image.js
+file
+
+
+
+add
+
