@@ -41,7 +41,7 @@ Public Class Messages
             GridView1.DataSourceID = "emp_empGroup"
             GridView1.DataBind()
 
-            GroupEmployee.SelectCommand = "SELECT Offer.subject, Offer.message, Offer.sent FROM Offer INNER JOIN OfferGroups ON Offer.OfferId = OfferGroups.OfferId WHERE (OfferGroups.GroupId = " & empGroup1.SelectedValue & ")  ORDER BY offer.sent desc"
+            GroupEmployee.SelectCommand = "SELECT Offer.subject,SUBSTRING(Offer.message, 1, 20) AS message, Offer.sent FROM Offer INNER JOIN OfferGroups ON Offer.OfferId = OfferGroups.OfferId WHERE (OfferGroups.GroupId = " & empGroup1.SelectedValue & ")  ORDER BY offer.sent desc"
             GridView2.DataSourceID = "GroupEmployee"
             GridView2.DataBind()
         Else
@@ -68,14 +68,22 @@ Public Class Messages
         myCommand = New SqlCommand(insertCmd, MyConnection)
         myCommand.ExecuteNonQuery()
 
-        GroupEmployee.SelectCommand = "SELECT Offer.subject, Offer.message, Offer.sent FROM Offer INNER JOIN OfferGroups ON Offer.OfferId = OfferGroups.OfferId WHERE (OfferGroups.GroupId = " & empGroup1.SelectedValue & ") ORDER BY offer.sent desc"
-        GridView2.DataSourceID = "GroupEmployee"
-        GridView2.DataBind()
+        '------------------ Gridview Bind
+        GrpEmpBind()
 
         UpdatePanel1.UpdateMode = UpdatePanelUpdateMode.Conditional
         UpdatePanel1.Update()
 
 
 
+    End Sub
+    Protected Sub GrpEmpBind()
+        GroupEmployee.SelectCommand = "SELECT Offer.subject, SUBSTRING(Offer.message, 1, 20) AS message, Offer.sent FROM Offer INNER JOIN OfferGroups ON Offer.OfferId = OfferGroups.OfferId WHERE (OfferGroups.GroupId = " & empGroup1.SelectedValue & ") ORDER BY offer.sent desc"
+        GridView2.DataSourceID = "GroupEmployee"
+        GridView2.DataBind()
+    End Sub
+    Protected Sub GridView2_PageIndexChanging(sender As Object, e As GridViewPageEventArgs)
+        GridView2.PageIndex = e.NewPageIndex
+        GrpEmpBind()
     End Sub
 End Class
